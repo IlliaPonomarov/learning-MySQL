@@ -11,7 +11,8 @@ public class Main {
         System.out.println("SELECT STUDENTS or TEACHER: ");
         String select_table = in.nextLine();
 
-
+        db.insertSQL("Rocki", "Yurov", "SEMAT", "Female");
         db.output(select_table.toLowerCase());
+
     }
 }
