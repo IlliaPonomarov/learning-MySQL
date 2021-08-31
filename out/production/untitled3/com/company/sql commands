@@ -1,0 +1,13 @@
+
+
+
+1.OUTPUT
+    SELECT * FROM table_name                                \\Output all information from table
+    SELECT * FROM table_name WHERE column_name = value
+    SELECT column_name FROM table_name
+
+2. INSERT DATA
+    INSERT INTO table_name (first_value, second_value_ thirty_value) VALUES (?, ?, ?)
+
+3. DELETE DATA
+    DELETE FROM table_name WHERE column_name = value
