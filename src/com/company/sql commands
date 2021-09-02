@@ -1,13 +1,27 @@
 
+ORDER BY  is a sort
+LIKE  is a if
+WHERE also if
+ORDER BY val DESC = descending sort
 
 
-1.OUTPUT
+
+1.OUTPUTadd
     SELECT * FROM table_name                                \\Output all information from table
     SELECT * FROM table_name WHERE column_name = value
     SELECT column_name FROM table_name
+    SELECT count(*) FROM table_name
+    SELECT * FROM table_name LIMIT 2,3
+    SELECT * FROM table_name ORDER BY id
+    SELECT * FROM table_name ORDER BY id DESC
+    SELECT * FROM table_name WHERE name LIKE = "An%"
+
 
 2. INSERT DATA
     INSERT INTO table_name (first_value, second_value_ thirty_value) VALUES (?, ?, ?)
 
 3. DELETE DATA
     DELETE FROM table_name WHERE column_name = value
+
+ 4. UPDATE DATA
+    UPDATE table_name SET columns_value WHERE columns_value = value
