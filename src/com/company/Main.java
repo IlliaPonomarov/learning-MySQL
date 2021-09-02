@@ -1,11 +1,17 @@
 package com.company;
 
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        DatabaseHandler db = new DatabaseHandler();
+        DatabaseHandler db = null;
+        try {
+            db = DatabaseHandler.getInstance();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
 
         Scanner in = new Scanner(System.in);
         System.out.println("SELECT STUDENTS or TEACHER: ");

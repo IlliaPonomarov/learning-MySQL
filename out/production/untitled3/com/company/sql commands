@@ -6,7 +6,7 @@ ORDER BY val DESC = descending sort
 
 
 
-1.OUTPUT
+1.OUTPUTadd
     SELECT * FROM table_name                                \\Output all information from table
     SELECT * FROM table_name WHERE column_name = value
     SELECT column_name FROM table_name
